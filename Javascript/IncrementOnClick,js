@@ -1,0 +1,8 @@
+var buttonTarget = document.getElementsByClassName("btn")[0];
+var counter = 1;
+
+function incrementor(){
+  buttonTarget.innerHTML = counter;
+  counter++;
+  return counter;
+}
